@@ -56,6 +56,11 @@ hash = "f521af035e4ecd1dbbba581d97d0454066f4269620b4993acf4184df351ec754"
 metafile = true
 
 [[files]]
+file = "mods/artifacts.pw.toml"
+hash = "5a21b57951f08465ee9a49e5a7650655291dd441e8ee114c6a7c7caf0a180527"
+metafile = true
+
+[[files]]
 file = "mods/atlas-lib.pw.toml"
 hash = "57d314558add15212267a2a73439def174a8d8179e3cbd6abf8926f23fbca2e5"
 metafile = true
@@ -741,6 +746,11 @@ hash = "0f465bf38b13f887dbde506c859c9b5439ee9151ae5f3a98078b9f6c3a2c89ad"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "373d6893cd8876f79d1a07c0d2c60a044b78e6be3a3818c42bff5630256b3d11"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "27721caca5a03b743bf25888e1d984142948069dace31453f103f94f7f24d2ce"
 metafile = true
@@ -783,6 +793,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "860d3b3e2c407980ece69e51896fb5e2e1ffcdb63b6956d440f331cf73777c83"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
@@ -993,9 +1008,4 @@ metafile = true
 [[files]]
 file = "mods/zombie-variants.pw.toml"
 hash = "fb36426d089b511f9cd36ca6b0138b7988a6b8b96c0d04abc40d31f2f3379a17"
-metafile = true
-
-[[files]]
-file = "mods/zoniex.pw.toml"
-hash = "e28ba0f65670c454a589766a083c094e7574f17cfe0d7f3c9055a75b52fcf2a8"
 metafile = true

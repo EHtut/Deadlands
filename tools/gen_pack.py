@@ -29,12 +29,12 @@ PACK = REPO / "pack"
 RESOLVED = HERE / ".cache" / "resolved.json"
 
 # Placeholder name - change it here and nowhere else.
-PACK_NAME = "Zombiepack"
+PACK_NAME = "Deadlands"
 PACK_AUTHOR = "EHtut"
 PACK_VERSION = "0.0.1"
 
 MINECRAFT = "1.21.1"
-NEOFORGE = "21.1.247"
+NEOFORGE = "21.1.262"
 
 
 def esc(s: str) -> str:

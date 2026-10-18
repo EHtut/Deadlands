@@ -493,7 +493,7 @@
    ]
   },
   "magic": {
-   "why": "Ethan: 'mostly the magic from ars but nothing overly fantastical.' Ars and its direct family only; Goety, Occultism, Ice and Fire, Relics and Artifacts NOT carried.",
+   "why": "Ethan: 'mostly the magic from ars but nothing overly fantastical.' Ars and its direct family only; Goety, Occultism and Ice and Fire NOT carried. Relics and Artifacts added back by Ethan the same day.",
    "mods": [
     [
      "ars-nouveau",
@@ -529,6 +529,16 @@
      "enchantment-descriptions",
      "",
      "major"
+    ],
+    [
+     "relics-mod",
+     "Ethan, 2026-10-17: added back",
+     "major"
+    ],
+    [
+     "artifacts",
+     "Ethan, 2026-10-17: added back",
+     "major"
     ]
    ]
   },
@@ -563,7 +573,7 @@
    ]
   },
   "zombies": {
-   "why": "Variety rosters stack; these were checked live as 1.21.1 NeoForge 2026-10-17. Gamingbarn's Zombies NOT taken: it replaces all vanilla monsters and the rosters already cover it.",
+   "why": "Variety rosters stack; these were checked live as 1.21.1 NeoForge 2026-10-17. Gamingbarn's Zombies NOT taken: it replaces all vanilla monsters and the rosters already cover it. ZoNiEx REMOVED 2026-10-17: every version is a Forge 1.20.1 jar mislabelled 1.21.1 NeoForge on Modrinth; the loader refused it.",
    "mods": [
     [
      "rottencreatures",
@@ -587,11 +597,6 @@
     ],
     [
      "hominid",
-     "",
-     "major"
-    ],
-    [
-     "zoniex",
      "",
      "major"
     ],
@@ -1044,6 +1049,11 @@
      "voidless-framework",
      "Required by rationcraft - found in the JAR, not declared on Modrinth",
      "core"
+    ],
+    [
+     "shatterbyte-lib",
+     "OctoLib (renamed ShatterLib). Required by relics - in the JAR, never on Modrinth.",
+     "core"
     ]
    ]
   }
@@ -1173,7 +1183,10 @@
    "puzzles-lib": "v21.1.52-1.21.1-NeoForge",
    "coroutil": "1.21.0-1.3.8",
    "polytone": "1.21-3.11.0",
-   "glitchcore": "2.1.0.2"
+   "glitchcore": "2.1.0.2",
+   "relics-mod": "0.10.7.8",
+   "artifacts": "13.2.1",
+   "shatterbyte-lib": "0.6.2"
   }
  },
  "shaderpacks": {

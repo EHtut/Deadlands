@@ -1,9 +1,9 @@
-# Zombiepack *(working name)*
+# Deadlands
 
 A straight modpack — no custom scripting. Zombie apocalypse in a dead city, with
 parasites, guns, Create, and a light layer of Ars Nouveau magic.
 
-Minecraft **1.21.1**, NeoForge **21.1.247**, packwiz. Dedicated server + friends.
+Minecraft **1.21.1**, NeoForge **21.1.262**, packwiz. Dedicated server + friends.
 
 ## The brief (Ethan, 2026-10-17)
 
@@ -19,7 +19,7 @@ Minecraft **1.21.1**, NeoForge **21.1.247**, packwiz. Dedicated server + friends
 |---|---|
 | `tools/modlist.json` | **the source of truth** — every mod, grouped, with why it is in |
 | `pack/` | the packwiz pack, **generated** — never hand-edit |
-| `C:\MCServer\zombie-instance` | the dedicated server |
+| `C:\MCServer\zombie-instance` | the dedicated server. rcon on 25576, localhost; `tools/rcon.py --instance C:/MCServer/zombie-instance "list"` |
 
 ## Building
 
@@ -54,8 +54,13 @@ each would be a third gun engine.
 Spore: SRP is the route to that feel.
 
 **Lost Cities on 1.21 is NOT `level-type=lostcities`** — that is the 1.12 method. It is
-`[profiles] selectedProfile` in `config/lostcities-server.toml`, and it must be set
-**before** the world first generates.
+`[profiles] selectedProfile` in `config/lostcities-server.toml` (a copy lives in
+`server-config/`), set **before** the world first generates. Verified 2026-10-17: 48 of 55
+fully generated spawn chunks contain city blocks.
+⚠️ **Measure per FULLY GENERATED chunk.** Counting block palettes across region files
+reported "natural terrain" twice — the ring of half-generated chunks around spawn is bare
+terrain and swamps the count. That false negative led to an unneeded
+`dimensionsWithProfiles` edit, since reverted. Do not re-add it.
 
 **One third-person camera.** Third Person Shooting needs Shoulder Surfing Reloaded, so
 Better Third Person was dropped rather than run alongside it.
@@ -64,7 +69,8 @@ Better Third Person was dropped rather than run alongside it.
 
 ## Not done yet
 
-- 🖊️ **The pack name.** "Zombiepack" lives in `tools/gen_pack.py` `PACK_NAME` and nowhere else.
-- **First boot** — needs the EULA accepted in `zombie-instance/eula.txt`.
+- **NeoForge 21.1.262, not 247:** Elite X Quality Guns requires `>=21.1.259`.
+- **ZoNiEx removed:** every version is a Forge 1.20.1 jar mislabelled as 1.21.1 NeoForge.
+- **`check_deps.py` now catches both of those** — it passed them before, and the loader did not.
 - **Publishing** — no GitHub remote yet, so no client import link.
 - **No mod has been seen in game.** Everything above is resolution and jar metadata.

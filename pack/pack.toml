@@ -1,4 +1,4 @@
-name = "Zombiepack"
+name = "Deadlands"
 author = "EHtut"
 version = "0.0.1"
 pack-format = "packwiz:1.1.0"
@@ -6,8 +6,8 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2e6603bce6eb949a9ef25aa91edb9607d593d72c82298a3a900f34486be9821e"
+hash = "14aeed3e3405ca716cc5c021074ab27ef2aa87d7cce63fbf8d0cabbfc3448a0f"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.247"
+neoforge = "21.1.262"

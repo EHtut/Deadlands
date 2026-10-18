@@ -31,6 +31,14 @@ import verrange
 # modIds the loader itself provides.
 BUILTIN = {"minecraft", "neoforge", "forge", "java", "fml", "mcp"}
 
+# The NeoForge version the pack ships - read from gen_pack.py so the two can never
+# disagree. Checked against every mod's declared range above.
+try:
+    import gen_pack
+    NEOFORGE = gen_pack.NEOFORGE
+except Exception:
+    NEOFORGE = None
+
 MODS_TOML = "META-INF/neoforge.mods.toml"
 LEGACY_TOML = "META-INF/mods.toml"
 
@@ -186,6 +194,14 @@ def main() -> int:
                     if not nested:
                         nomanifest.append(j.name)
                     continue
+                # 🔴 A JAR WITH ONLY THE LEGACY META-INF/mods.toml IS A FORGE JAR, and
+                # NeoForge 1.21 refuses it: "is for Minecraft Forge or an older version
+                # of NeoForge, and cannot be loaded". ZoNiEx shipped exactly that,
+                # labelled 1.21.1 NeoForge on Modrinth, and this check passed it because
+                # read_toml() accepts either file without saying which it found.
+                if MODS_TOML not in z.namelist():
+                    nomanifest.append(f"{j.name} (Forge-only mods.toml - not a NeoForge jar)")
+                    continue
                 p, deps = parse(text)
                 for pid, pver in p.items():
                     offer(pid, pver, j.name)
@@ -206,6 +222,12 @@ def main() -> int:
             continue
         dep = d["dep"]
         if d["kind"] == "required":
+            # 🔴 BUILTIN USED TO MEAN "SKIP ENTIRELY", so a mod needing a NEWER
+            # NeoForge passed here and died at boot - Elite X wanted >=21.1.259 on a
+            # 247 server. The loader is provided, but its version is still checked.
+            if dep == "neoforge" and NEOFORGE and d["range"] and not verrange.in_range(NEOFORGE, d["range"]):
+                wrongver.append((d["owner"], dep, NEOFORGE, d["range"]))
+                continue
             if dep in BUILTIN:
                 continue
             if dep not in provided:
