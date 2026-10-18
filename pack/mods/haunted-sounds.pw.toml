@@ -1,0 +1,13 @@
+name = "Haunted Sounds"
+filename = "misplacedambience-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oSs3mp4q/versions/46tOsdI1/misplacedambience-1.0.1.jar"
+hash-format = "sha512"
+hash = "d6f0e5a1b2283c1eee02fb80fa3caab9401edd5e7af988ddeab1b13581b7fc5a0f09434a7455201b4cf2d941fac38ea5f5336c0841f6f563825303ae6d9f1884"
+
+[update]
+[update.modrinth]
+mod-id = "oSs3mp4q"
+version = "46tOsdI1"

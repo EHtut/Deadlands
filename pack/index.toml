@@ -496,8 +496,18 @@ hash = "52c1fe3a524bdbab51ce4979b44cd5e7892cffe232af262adf45eb7a5fa5a82c"
 metafile = true
 
 [[files]]
+file = "mods/haunted-sounds.pw.toml"
+hash = "7e88bb62be7cbab32c49eae68513095531eb2565397e6f9bfde53401f30cdd8a"
+metafile = true
+
+[[files]]
 file = "mods/hominid.pw.toml"
 hash = "4f7eb74a19c7f65888b207d624fc21fbf52bf94386835bcf3d079f6cd235cbfd"
+metafile = true
+
+[[files]]
+file = "mods/horror-faces.pw.toml"
+hash = "7ab43011b7922c811469e1e31a963e65cc08a82c1fcaa20a072818bf193356a3"
 metafile = true
 
 [[files]]
@@ -926,6 +936,11 @@ hash = "9e035295e6ec2f37ff3bfe1c2e224c000b9322e8753ef0d8b67e0e45f844a375"
 metafile = true
 
 [[files]]
+file = "mods/the-knocker.pw.toml"
+hash = "a96d14bcc58f21a1b1af5e0147543ea224342f7e636106c1a73c0818fd69eeb6"
+metafile = true
+
+[[files]]
 file = "mods/the-lost-cities.pw.toml"
 hash = "d05b640a4668376c428e9556c65eb47f1d063bf55f3faee62b7310c775557471"
 metafile = true
@@ -973,6 +988,11 @@ metafile = true
 [[files]]
 file = "mods/voidless-framework.pw.toml"
 hash = "3311a46b9bc2bc621103b8dc6046cb7f93517701a76478dc0d2db9554242fa0b"
+metafile = true
+
+[[files]]
+file = "mods/whispering-spirits.pw.toml"
+hash = "f8705eee4c8394658b9246e28fec6810a53d5d28c32512e6bc27741afb01ae7a"
 metafile = true
 
 [[files]]

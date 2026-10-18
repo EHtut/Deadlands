@@ -1,0 +1,183 @@
+HOW TO JOIN - Deadlands
+=============================
+
+Four steps. You do not need to understand any of it.
+
+
+STEP 1 - Install Prism Launcher (free)
+
+    https://prismlauncher.org/download/
+
+    Download, run the installer, click through it.
+
+
+STEP 2 - Import this pack
+
+    Open Prism.
+    Click "Add Instance" (top left).
+    Choose "Import from zip" on the left.
+    Click "Browse" and pick the zip file you downloaded.
+    Click OK.
+
+    Do NOT unzip the file first. Prism wants the zip itself.
+
+
+STEP 3 - Sign in
+
+    Top right of Prism, click your profile / "Manage Accounts".
+    Add your Microsoft account (the one you own Minecraft on).
+
+    If Prism asks to download Java, say YES.
+
+
+STEP 4 - Play
+
+    Double-click "Deadlands".
+
+    The FIRST launch downloads about 1.5 GB of mods and looks frozen for
+    several minutes. It is not frozen. Leave it alone.
+
+    When Minecraft opens: Multiplayer -> the server is already in the list.
+    Just double-click it.
+
+
+THAT'S IT.
+==========
+
+
+If it says you are not whitelisted
+----------------------------------
+Send Ethan your exact Minecraft username. He has to add you before you can
+join. Capital letters do not matter but spelling does.
+
+
+Voice chat
+----------
+Already installed. Press V in game to open its menu and pick your microphone.
+Do that before your first session rather than during one.
+
+People near you can hear you. People far away cannot. In caves your voice
+echoes - that is intentional.
+
+
+Things that will make you sad if you ignore them
+------------------------------------------------
+* Do NOT add or delete mods yourself. The pack re-syncs every launch and will
+  undo it. If your mods differ from everyone else's, the server just refuses
+  to let you in, and the error message blames a random mod instead of saying
+  what is actually wrong.
+
+* Do NOT add or raise things before you have played once. The settings are
+  deliberately low - see the next section.
+
+
+YOUR PC IS BETTER THAN THE DEFAULTS?
+------------------------------------
+Everything is set low on purpose, so the game runs on the weakest computer in
+the group. If yours is comfortable, turn these up - IN THIS ORDER. Change one,
+play for five minutes, then change the next.
+
+  1. MEMORY - do this one first if your PC has more than 16 GB.
+
+     Right-click the instance -> Edit -> Settings -> Memory.
+     Set BOTH boxes to the same number:
+
+         16 GB of RAM  ->  10240  (the shipped default, leave it)
+         32 GB of RAM  ->  10240
+         64 GB of RAM  ->  12288
+
+     The default is deliberately low so the game runs on the weakest computer
+     in the group. On a big machine it is TOO low, and the symptom is the game
+     crashing with an out-of-memory message.
+
+     Do not just set it as high as it will go. A heap far bigger than the game
+     needs makes things WORSE, not better.
+
+  2. Make the window bigger. Drag the corner, or press F11 for fullscreen.
+     This is the biggest one after memory.
+
+  3. Options -> Video Settings -> Render Distance:      6  ->  10
+
+  4. Options -> Video Settings -> Graphics:           Fast  ->  Fancy
+
+  5. Options -> Video Settings -> Particles:       Minimal  ->  All
+
+  6. Options -> Video Settings -> Smooth Lighting:     OFF  ->  ON
+
+If anything gets choppy, put it back. Nothing here can break the game, and
+none of it affects anybody else on the server.
+
+There is also a mod called Distant Horizons that draws far-away terrain. It is
+turned OFF because it is the most expensive thing in the pack. If your computer
+is strong and you want the view, ask Ethan to turn it on for you.
+
+* THIS PACK NEEDS 16 GB OF MEMORY IN YOUR COMPUTER. Not 8.
+
+  That is the one hard requirement. Everything else about a slow computer can
+  be fixed in the settings; this cannot.
+
+  With 8 GB you will not get an error message. You will get the game freezing
+  for seconds at a time, forever, because Windows is shuffling memory to disk.
+  400 mods need about 5 GB for the game plus 2 GB of overhead, and Windows
+  itself wants 3-4 GB. It does not fit, and no setting makes it fit.
+
+  If you have 8 GB: a 8 GB memory stick is cheap and it is the only real fix.
+  Everything is already set up correctly for 16 GB - you do not need to change
+  anything at all.
+
+
+* IF THE GAME LOOKS RIGHT BUT RUNS BADLY ON A LAPTOP
+
+  Laptops have two graphics chips - a slow one built into the processor and a
+  fast one. Minecraft sometimes grabs the slow one.
+
+  To check: right-click the instance -> Folder, open "logs", open "latest.log",
+  and search for the line starting "OpenGL Renderer:". If it names Intel UHD,
+  Intel Iris, or AMD Radeon Graphics (with no model number), it took the slow
+  one.
+
+  To fix: Windows Settings -> System -> Display -> Graphics, add
+  "javaw.exe", set it to High performance. Then restart the game.
+
+
+Want it to look better?  (shaders + textures are INSTALLED but OFF)
+------------------------------------------------------------------
+Three packs already arrived with the game. Nothing to download, nothing to
+install, nothing to move into a folder. They ship switched OFF because this
+instance is tuned for the slowest computer in the group - turn them on only if
+your machine has room.
+
+Shaders (expensive - try this on a good graphics card only):
+  Options -> Video Settings -> Shader Packs
+  BSL is already selected. Just switch shaders on.
+  Also there: Complementary Reimagined, which is the lighter of the two and
+  the better choice if you use the far-distance terrain rendering.
+
+Textures (cheap - most machines are fine):
+  Options -> Resource Packs -> move "Faithful 32x" to the RIGHT -> Done
+
+Animations (moderate cost - try one at a time):
+  Same screen. "Fresh Animations" animates every MOB; "Fresh Moves" animates
+  the PLAYER. They are independent, so run either or both.
+  These are the first things to drop if the game gets choppy in a crowd.
+
+IF THE GAME MISBEHAVES, TURN THE SHADER OFF FIRST. It is by far the most
+expensive thing here and nothing breaks without it. Suspect it immediately on:
+  - frames dropping through the floor
+  - strange stripes, flickering, or blocks rendering wrong
+  - menus or text going missing
+
+
+Controls that are NOT vanilla
+-----------------------------
+  Sneak  = LEFT CTRL
+  Sprint = LEFT SHIFT
+
+That is swapped from Minecraft's default on purpose. Rebind them in
+Options -> Controls if you hate it.
+
+
+(Credit: BSL Shaders by CaptTatsu; Complementary Shaders - Reimagined by
+ Complementary Development, https://www.complementary.dev/ ; Faithful 32x by
+ the Faithful Team, https://faithfulpack.net/ . All are downloaded from
+ Modrinth when the game launches; none are redistributed here.)

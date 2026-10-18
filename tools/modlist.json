@@ -1056,6 +1056,31 @@
      "core"
     ]
    ]
+  },
+  "horror": {
+   "why": "Ethan 2026-10-17. Every description READ IN FULL first. OUT and why: The Broken Script + BLACKOUT (delete/corrupt worlds, crash, write outside the instance), Kenny (daily enchanted apples + netherite), Imposter (breaks blocks + records voice by default), Horror Weather (lightning places bedrock), Mandela Catalogue (WIP), Cave Dweller ReEvolved (unmaintained beta), Sanity Renewed (stacks on Tough As Nails), Epic Death Screen (Ethan cut it). PENDING Ethan: Mimicked (records voices), Server-Side Horror (fires), Backwoods/Places.",
+   "mods": [
+    [
+     "haunted-sounds",
+     "Plausible sounds only from things really nearby; heard by everyone close.",
+     "minor"
+    ],
+    [
+     "whispering-spirits",
+     "Harmless glowing eyes that vanish into whispers. Unmaintained but simple.",
+     "minor"
+    ],
+    [
+     "horror-faces",
+     "Faces that stalk at night and in caves.",
+     "major"
+    ],
+    [
+     "the-knocker",
+     "A single stalker that knows where you live.",
+     "major"
+    ]
+   ]
   }
  },
  "pins": {
