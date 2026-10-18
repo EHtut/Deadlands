@@ -67,10 +67,13 @@ Better Third Person was dropped rather than run alongside it.
 
 **Waystones not carried.** Free teleport undercuts crossing a dead city.
 
+**NeoForge 21.1.262, not 247:** Elite X Quality Guns requires `>=21.1.259`.
+
+**ZoNiEx removed:** every version is a Forge 1.20.1 jar mislabelled as 1.21.1 NeoForge.
+`check_deps.py` passed it, and the NeoForge version gap, and the loader refused both — it
+now checks Forge-only manifests and NeoForge's own range.
+
 ## Not done yet
 
-- **NeoForge 21.1.262, not 247:** Elite X Quality Guns requires `>=21.1.259`.
-- **ZoNiEx removed:** every version is a Forge 1.20.1 jar mislabelled as 1.21.1 NeoForge.
-- **`check_deps.py` now catches both of those** — it passed them before, and the loader did not.
 - **Publishing** — no GitHub remote yet, so no client import link.
 - **No mod has been seen in game.** Everything above is resolution and jar metadata.
