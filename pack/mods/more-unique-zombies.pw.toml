@@ -1,0 +1,13 @@
+name = "More unique zombies"
+filename = "moreuniquezombies-1.0.0-neoforge-1.21.1-21.1.218.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iwooNrp1/versions/o2XHgalF/moreuniquezombies-1.0.0-neoforge-1.21.1-21.1.218.jar"
+hash-format = "sha512"
+hash = "c881fdf729e515445b128720a2a70f60d9647339b17f92200fccc38b5c414c0f2aae9a7dacd5cea26bd76c1ca3d727a1e1a697d26cb5c013af5740ced22af566"
+
+[update]
+[update.modrinth]
+mod-id = "iwooNrp1"
+version = "o2XHgalF"

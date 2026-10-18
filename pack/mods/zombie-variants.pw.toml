@@ -1,0 +1,13 @@
+name = "Zombie Variants"
+filename = "zombie_variants-neoforge-1.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b9aFBeGb/versions/mr853QE1/zombie_variants-neoforge-1.0.3-1.21.1.jar"
+hash-format = "sha512"
+hash = "2dbf27a143cbd6f3806c1a1b5579b739d755222323d32de57aa186d17d9a91a544bc81e3838fb09865b4017a76146e5bcf34131b8a5c901145503a3ed550ad1c"
+
+[update]
+[update.modrinth]
+mod-id = "b9aFBeGb"
+version = "mr853QE1"

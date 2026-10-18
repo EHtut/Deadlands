@@ -1,0 +1,13 @@
+name = "Spore:SRP!"
+filename = "sporesrp-1.8.7-neo.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/a5dtLyoL/versions/ycAIPADf/sporesrp-1.8.7-neo.jar"
+hash-format = "sha512"
+hash = "fb6d61d597c98d99fd5ac9e79d8bfcc8ad78d1c6f9efa971c631285b05e5511a69cfbf42f04e9b1b1d87d360f4bf2c151f2628b93beba055f80459ad21b6c98e"
+
+[update]
+[update.modrinth]
+mod-id = "a5dtLyoL"
+version = "ycAIPADf"

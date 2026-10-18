@@ -1,0 +1,13 @@
+name = "Husk Spawn"
+filename = "huskspawn-1.21.1-3.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pfNveXQV/versions/rcbTTfez/huskspawn-1.21.1-3.8.jar"
+hash-format = "sha512"
+hash = "9b54af43e501404bfb5abff5a9010305a773ba917060489fb31b6e9053e4940fc5b519838fdd79d9efb7bae6917a56c738d62ea95b8248ef8d7d167caa6b89a6"
+
+[update]
+[update.modrinth]
+mod-id = "pfNveXQV"
+version = "rcbTTfez"

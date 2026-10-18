@@ -1,0 +1,13 @@
+name = "Zombiepack"
+author = "EHtut"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2e6603bce6eb949a9ef25aa91edb9607d593d72c82298a3a900f34486be9821e"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.247"

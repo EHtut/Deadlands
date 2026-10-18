@@ -1,0 +1,13 @@
+name = "Create Militarized"
+filename = "create_militarized-5.0.1 Alpha-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n168Utxd/versions/ongzYj3a/create_militarized-5.0.1%20Alpha-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "7e8238ead9f0703a9471eedd744d8cfaa854098a6db3df790e906c896395b92ff3a9eda981caa830147feb56807d3d1627f188f991ed238fdfd6218403502725"
+
+[update]
+[update.modrinth]
+mod-id = "n168Utxd"
+version = "ongzYj3a"

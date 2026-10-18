@@ -1,0 +1,13 @@
+name = "Mutationcraft"
+filename = "mutationcraft-legacy-neoforge-1.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SBkd4mrC/versions/W9aovG7d/mutationcraft-legacy-neoforge-1.1-1.21.1.jar"
+hash-format = "sha512"
+hash = "259b0f44caefc4ea2b05677313babaf45d344ace66af23f4c58558f22105989dad14c43086c0042f87476619574d106d24a7961ba07ab62a253407a985f351ba"
+
+[update]
+[update.modrinth]
+mod-id = "SBkd4mrC"
+version = "W9aovG7d"

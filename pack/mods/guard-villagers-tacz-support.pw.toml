@@ -1,0 +1,13 @@
+name = "Guard Villagers TACZ Support"
+filename = "guardvillagerstaczsupport-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QZMNYwRv/versions/QGU8JjT8/guardvillagerstaczsupport-1.1.0.jar"
+hash-format = "sha512"
+hash = "04f1ed881c2b7094748b6646cfe3653589b6f6075b8dd9ba4473e06ceb55f4faba543280e93380c411109d88e047a5e55bca093a7dc0ae95650ced851325d9a7"
+
+[update]
+[update.modrinth]
+mod-id = "QZMNYwRv"
+version = "QGU8JjT8"

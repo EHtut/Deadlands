@@ -1,0 +1,13 @@
+name = "TaCZ x Guns Lights Addon [NEW] 2.9.0"
+filename = "tacz_x_guns_lights_addon-neoforge-1.21.1-2.8.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XZBT7YTE/versions/VJUTrr8u/tacz_x_guns_lights_addon-neoforge-1.21.1-2.8.2.jar"
+hash-format = "sha512"
+hash = "fda23e06b7c954839854ac89bb28587c6c650bd5eac6a45f7791626834fbd49a59829fb4fcc7c83ec7156a1def40d716eae22573320424449276aad4c58addfc"
+
+[update]
+[update.modrinth]
+mod-id = "XZBT7YTE"
+version = "VJUTrr8u"

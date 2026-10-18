@@ -1,0 +1,13 @@
+name = "RP Best Guns for VPB"
+filename = "rp-best-guns.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QyK0pPCk/versions/Vpr6F1Pw/rp-best-guns.zip"
+hash-format = "sha512"
+hash = "6e91d46e418c120ab40be04fef5fab55dc011077baa1b432f1eb68bb8cc2f99f7e3d4e7a85dd96f4d227110e1134f3fe11398b31311d4c91ebe95525f595838a"
+
+[update]
+[update.modrinth]
+mod-id = "QyK0pPCk"
+version = "Vpr6F1Pw"

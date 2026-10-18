@@ -1,0 +1,1207 @@
+{
+ "_comment": [
+  "Curated input. Generated from: resolve.py resolve tools/modlist.json -> gen_pack.py.",
+  "Built 2026-10-17 from Ethan's brief: zombie apocalypse, ruined cities (Lost Cities), zombies + parasites,",
+  "guns a big focus, Create and Ars magic, fantasy kept light. Perf/visual layer carried from Arkhdottir."
+ ],
+ "game_version": "1.21.1",
+ "loader": "neoforge",
+ "categories": {
+  "performance": {
+   "why": "Carried from Arkhdottir unchanged - the known-good perf layer, pins included.",
+   "mods": [
+    [
+     "modernfix",
+     "",
+     "core"
+    ],
+    [
+     "lithium",
+     "",
+     "core"
+    ],
+    [
+     "ferrite-core",
+     "",
+     "core"
+    ],
+    [
+     "sodium",
+     "",
+     "core"
+    ],
+    [
+     "sodium-extra",
+     "",
+     "core"
+    ],
+    [
+     "reeses-sodium-options",
+     "",
+     "core"
+    ],
+    [
+     "iris",
+     "",
+     "core"
+    ],
+    [
+     "euphoria-patches",
+     "",
+     "core"
+    ],
+    [
+     "entityculling",
+     "",
+     "core"
+    ],
+    [
+     "immediatelyfast",
+     "",
+     "core"
+    ],
+    [
+     "moreculling",
+     "",
+     "core"
+    ],
+    [
+     "dynamic-fps",
+     "",
+     "core"
+    ],
+    [
+     "particle-core",
+     "",
+     "core"
+    ],
+    [
+     "flerovium",
+     "",
+     "core"
+    ],
+    [
+     "alternate-current",
+     "",
+     "core"
+    ],
+    [
+     "saturn",
+     "",
+     "core"
+    ],
+    [
+     "lmft",
+     "",
+     "core"
+    ],
+    [
+     "spark",
+     "",
+     "core"
+    ],
+    [
+     "chunky",
+     "",
+     "core"
+    ],
+    [
+     "packet-fixer",
+     "",
+     "core"
+    ],
+    [
+     "servercore",
+     "",
+     "core"
+    ],
+    [
+     "crash-assistant",
+     "",
+     "core"
+    ],
+    [
+     "createbetterfps",
+     "",
+     "core"
+    ],
+    [
+     "distanthorizons",
+     "",
+     "core"
+    ]
+   ]
+  },
+  "visual-audio": {
+   "why": "Carried: the visual and sound layer Ethan wants kept. Better Third Person dropped: Third Person Shooting needs Shoulder Surfing Reloaded, and two third-person cameras fight.",
+   "mods": [
+    [
+     "sound-physics-remastered",
+     "",
+     "minor"
+    ],
+    [
+     "dynamic-lights",
+     "",
+     "minor"
+    ],
+    [
+     "ambientsounds",
+     "",
+     "minor"
+    ],
+    [
+     "sound",
+     "",
+     "minor"
+    ],
+    [
+     "dripsounds",
+     "",
+     "minor"
+    ],
+    [
+     "subtle-effects",
+     "",
+     "minor"
+    ],
+    [
+     "extreme_sound_muffler",
+     "",
+     "minor"
+    ],
+    [
+     "particle-rain",
+     "",
+     "minor"
+    ],
+    [
+     "smooth-skies",
+     "",
+     "minor"
+    ],
+    [
+     "clear-water",
+     "",
+     "minor"
+    ],
+    [
+     "visuality-forge",
+     "",
+     "minor"
+    ],
+    [
+     "particular-reforged",
+     "",
+     "minor"
+    ],
+    [
+     "fallingleavesforge",
+     "",
+     "minor"
+    ],
+    [
+     "pandas-falling-trees",
+     "",
+     "minor"
+    ],
+    [
+     "not-enough-animations",
+     "",
+     "minor"
+    ],
+    [
+     "first-person-model",
+     "",
+     "minor"
+    ],
+    [
+     "3dskinlayers",
+     "",
+     "minor"
+    ],
+    [
+     "obscure-tooltips",
+     "",
+     "minor"
+    ],
+    [
+     "entitytexturefeatures",
+     "",
+     "minor"
+    ],
+    [
+     "entity-model-features",
+     "",
+     "minor"
+    ]
+   ]
+  },
+  "qol": {
+   "why": "Carried QoL. Waystones deliberately NOT carried - free teleport undercuts crossing a dead city.",
+   "mods": [
+    [
+     "emi",
+     "",
+     "minor"
+    ],
+    [
+     "emi-loot",
+     "",
+     "minor"
+    ],
+    [
+     "emiffect",
+     "",
+     "minor"
+    ],
+    [
+     "appleskin",
+     "",
+     "minor"
+    ],
+    [
+     "controlling",
+     "",
+     "minor"
+    ],
+    [
+     "mouse-tweaks",
+     "",
+     "minor"
+    ],
+    [
+     "clumps",
+     "",
+     "minor"
+    ],
+    [
+     "carry-on",
+     "",
+     "minor"
+    ],
+    [
+     "storagedrawers",
+     "",
+     "minor"
+    ],
+    [
+     "comforts",
+     "",
+     "minor"
+    ],
+    [
+     "simple-voice-chat",
+     "",
+     "minor"
+    ],
+    [
+     "item-highlighter",
+     "",
+     "minor"
+    ],
+    [
+     "item-borders",
+     "",
+     "minor"
+    ],
+    [
+     "polymorph",
+     "",
+     "minor"
+    ],
+    [
+     "almostunified",
+     "",
+     "minor"
+    ],
+    [
+     "chat-heads",
+     "",
+     "minor"
+    ],
+    [
+     "no-chat-reports",
+     "",
+     "minor"
+    ],
+    [
+     "betterf3",
+     "",
+     "minor"
+    ],
+    [
+     "travelersbackpack",
+     "",
+     "minor"
+    ],
+    [
+     "countereds-smooth-steps",
+     "",
+     "minor"
+    ],
+    [
+     "rrls",
+     "",
+     "minor"
+    ],
+    [
+     "corpse",
+     "",
+     "minor"
+    ],
+    [
+     "in-control",
+     "",
+     "minor"
+    ]
+   ]
+  },
+  "create": {
+   "why": "Ethan: emphasis on Create. Whole Arkhdottir Create family carried, pinned versions included.",
+   "mods": [
+    [
+     "create",
+     "",
+     "major"
+    ],
+    [
+     "createaddition",
+     "",
+     "major"
+    ],
+    [
+     "create-deco",
+     "",
+     "major"
+    ],
+    [
+     "create-big-cannons",
+     "",
+     "major"
+    ],
+    [
+     "create-steam-n-rails-1.21.1",
+     "",
+     "major"
+    ],
+    [
+     "create-enchantment-industry",
+     "",
+     "major"
+    ],
+    [
+     "create-connected",
+     "",
+     "major"
+    ],
+    [
+     "copycats",
+     "",
+     "major"
+    ],
+    [
+     "create-sound-of-steam",
+     "",
+     "major"
+    ],
+    [
+     "create-compatible-storage",
+     "",
+     "major"
+    ],
+    [
+     "create-design-n-decor",
+     "",
+     "major"
+    ],
+    [
+     "create_oxidized",
+     "",
+     "major"
+    ],
+    [
+     "create-let-the-adventure-begin",
+     "",
+     "major"
+    ],
+    [
+     "create-dreams-and-desires",
+     "",
+     "major"
+    ],
+    [
+     "create-misc-and-things",
+     "",
+     "major"
+    ],
+    [
+     "create-bits-n-bobs",
+     "",
+     "major"
+    ],
+    [
+     "bellsandwhistles",
+     "",
+     "major"
+    ],
+    [
+     "interiors",
+     "",
+     "major"
+    ],
+    [
+     "create-framed",
+     "",
+     "major"
+    ],
+    [
+     "create-railways-navigator",
+     "",
+     "major"
+    ],
+    [
+     "numismatics",
+     "",
+     "major"
+    ],
+    [
+     "create-stuff-additions",
+     "",
+     "major"
+    ],
+    [
+     "create-encased",
+     "",
+     "major"
+    ],
+    [
+     "create-storage-neo-forge",
+     "",
+     "major"
+    ],
+    [
+     "create-aeronautics",
+     "",
+     "major"
+    ],
+    [
+     "create-bionics",
+     "",
+     "major"
+    ]
+   ]
+  },
+  "magic": {
+   "why": "Ethan: 'mostly the magic from ars but nothing overly fantastical.' Ars and its direct family only; Goety, Occultism, Ice and Fire, Relics and Artifacts NOT carried.",
+   "mods": [
+    [
+     "ars-nouveau",
+     "",
+     "major"
+    ],
+    [
+     "ars-creo",
+     "",
+     "major"
+    ],
+    [
+     "create-ars-nouveau",
+     "",
+     "major"
+    ],
+    [
+     "ars-lumos",
+     "",
+     "major"
+    ],
+    [
+     "arsdelight",
+     "",
+     "major"
+    ],
+    [
+     "farmers-delight",
+     "",
+     "major"
+    ],
+    [
+     "enchantment-descriptions",
+     "",
+     "major"
+    ]
+   ]
+  },
+  "city": {
+   "why": "Ethan: 'Whole world is a city.' Lost Cities replaces overworld generation.",
+   "mods": [
+    [
+     "the-lost-cities",
+     "",
+     "core"
+    ],
+    [
+     "lost-cities-modern-tweaks",
+     "",
+     "core"
+    ],
+    [
+     "lootr",
+     "",
+     "core"
+    ],
+    [
+     "yungs-better-dungeons",
+     "",
+     "core"
+    ],
+    [
+     "yungs-better-mineshafts",
+     "",
+     "core"
+    ]
+   ]
+  },
+  "zombies": {
+   "why": "Variety rosters stack; these were checked live as 1.21.1 NeoForge 2026-10-17. Gamingbarn's Zombies NOT taken: it replaces all vanilla monsters and the rosters already cover it.",
+   "mods": [
+    [
+     "rottencreatures",
+     "",
+     "major"
+    ],
+    [
+     "zombie-variants",
+     "",
+     "major"
+    ],
+    [
+     "luminous-monsters",
+     "",
+     "major"
+    ],
+    [
+     "the-undead-revamped",
+     "",
+     "major"
+    ],
+    [
+     "hominid",
+     "",
+     "major"
+    ],
+    [
+     "zoniex",
+     "",
+     "major"
+    ],
+    [
+     "mutant-monsters",
+     "",
+     "major"
+    ],
+    [
+     "mutants-and-zombies",
+     "",
+     "major"
+    ],
+    [
+     "crimson-steves-mutant-mobs",
+     "",
+     "major"
+    ],
+    [
+     "more-unique-zombies",
+     "",
+     "major"
+    ],
+    [
+     "giant-spawn",
+     "",
+     "major"
+    ],
+    [
+     "zombie-horse-spawn",
+     "",
+     "major"
+    ],
+    [
+     "husk-spawn",
+     "",
+     "major"
+    ]
+   ]
+  },
+  "zombie-systems": {
+   "why": "ONE of each overlapping system. Hordes AND infection = The Hordes (one mod, one config). Block-breaking = Enhanced AI only, so no Enhanced Hordes / Zombie Break&Build / Zombie Proof Doors.",
+   "mods": [
+    [
+     "the-hordes",
+     "",
+     "major"
+    ],
+    [
+     "zombie-awareness",
+     "",
+     "major"
+    ],
+    [
+     "enhanced-ai",
+     "",
+     "major"
+    ]
+   ]
+  },
+  "parasites": {
+   "why": "Scape and Run: Parasites has no 1.21.1 NeoForge build; Spore + Spore:SRP is the route to that feel.",
+   "mods": [
+    [
+     "fungal-infectionspore",
+     "",
+     "major"
+    ],
+    [
+     "sporesrp",
+     "",
+     "major"
+    ],
+    [
+     "mutationcraft-rematch",
+     "",
+     "major"
+    ],
+    [
+     "crimson_curse",
+     "",
+     "major"
+    ]
+   ]
+  },
+  "guns": {
+   "why": "Ethan: both engines - TaCZ (UNOFFICIAL port) and Vic's Point Blank. Two ammo economies. tacz-pack-upgrader is REQUIRED by the unofficial port; tacza stops TaCZ eating CPU. Superb Warfare / BlockFront NOT taken - a third gun engine.",
+   "mods": [
+    [
+     "tacz-1.21.1",
+     "",
+     "major"
+    ],
+    [
+     "tacz-pack-upgrader",
+     "",
+     "major"
+    ],
+    [
+     "tacza",
+     "",
+     "major"
+    ],
+    [
+     "taczaddon",
+     "",
+     "major"
+    ],
+    [
+     "vics-point-blank",
+     "",
+     "major"
+    ],
+    [
+     "elite-x-quality-guns",
+     "",
+     "major"
+    ],
+    [
+     "unofficial-tacz-fallout-gunpack",
+     "",
+     "major"
+    ],
+    [
+     "rp-best-guns",
+     "",
+     "major"
+    ],
+    [
+     "cyberpunk-2077-guns-for-vics-point-blank",
+     "",
+     "major"
+    ],
+    [
+     "cgs",
+     "",
+     "major"
+    ],
+    [
+     "create-immersive-tacz-integration",
+     "",
+     "major"
+    ],
+    [
+     "create-big-cannons",
+     "",
+     "major"
+    ],
+    [
+     "create-militarized",
+     "",
+     "major"
+    ],
+    [
+     "tacz-npcs",
+     "",
+     "major"
+    ],
+    [
+     "tacz-armed-pillagers",
+     "",
+     "major"
+    ],
+    [
+     "guard-villagers-tacz-support",
+     "",
+     "major"
+    ],
+    [
+     "tacz-turrets",
+     "",
+     "major"
+    ],
+    [
+     "tacz-tactical-breaching",
+     "",
+     "major"
+    ],
+    [
+     "tacz-durability",
+     "",
+     "major"
+    ],
+    [
+     "third-person-shooting-zero",
+     "",
+     "major"
+    ],
+    [
+     "tacz-x-guns-lights-addon",
+     "",
+     "major"
+    ],
+    [
+     "tacz-structure-loot",
+     "",
+     "major"
+    ],
+    [
+     "fracturepoint",
+     "",
+     "major"
+    ],
+    [
+     "military-armors",
+     "",
+     "major"
+    ],
+    [
+     "rationcraft",
+     "",
+     "major"
+    ],
+    [
+     "gunpowder-ore",
+     "",
+     "major"
+    ]
+   ]
+  },
+  "survival": {
+   "why": "'See what else' - vehicles for crossing the city, thirst/temperature, wounds.",
+   "mods": [
+    [
+     "immersive-vehicles",
+     "",
+     "major"
+    ],
+    [
+     "immersive-vehicles-official-content-pack",
+     "",
+     "major"
+    ],
+    [
+     "immersive-vehicles-official-automobile-pack",
+     "",
+     "major"
+    ],
+    [
+     "tough-as-nails",
+     "",
+     "major"
+    ],
+    [
+     "medical-remedies",
+     "",
+     "major"
+    ],
+    [
+     "bandagez",
+     "",
+     "major"
+    ]
+   ]
+  },
+  "auto-deps": {
+   "why": "Required libraries, found by `resolve.py deps` - every entry is REQUIRED by something above.",
+   "mods": [
+    [
+     "geckolib",
+     "",
+     "core"
+    ],
+    [
+     "cloth-config",
+     "",
+     "core"
+    ],
+    [
+     "fzzy-config",
+     "",
+     "core"
+    ],
+    [
+     "architectury-api",
+     "",
+     "core"
+    ],
+    [
+     "collective",
+     "",
+     "core"
+    ],
+    [
+     "yacl",
+     "",
+     "core"
+    ],
+    [
+     "iceberg",
+     "",
+     "core"
+    ],
+    [
+     "curios",
+     "",
+     "core"
+    ],
+    [
+     "yungs-api",
+     "",
+     "core"
+    ],
+    [
+     "kotlin-for-forge",
+     "",
+     "core"
+    ],
+    [
+     "creativecore",
+     "",
+     "core"
+    ],
+    [
+     "mru",
+     "",
+     "core"
+    ],
+    [
+     "resourceful-config",
+     "",
+     "core"
+    ],
+    [
+     "pandalib",
+     "",
+     "core"
+    ],
+    [
+     "fragmentum",
+     "",
+     "core"
+    ],
+    [
+     "searchables",
+     "",
+     "core"
+    ],
+    [
+     "prism-lib",
+     "",
+     "core"
+    ],
+    [
+     "rpl",
+     "",
+     "core"
+    ],
+    [
+     "create-dragons-plus",
+     "",
+     "core"
+    ],
+    [
+     "dragonlib",
+     "",
+     "core"
+    ],
+    [
+     "sable",
+     "",
+     "core"
+    ],
+    [
+     "patchouli",
+     "",
+     "core"
+    ],
+    [
+     "dynamic_asset_generator",
+     "",
+     "core"
+    ],
+    [
+     "bookshelf-lib",
+     "",
+     "core"
+    ],
+    [
+     "prickle",
+     "",
+     "core"
+    ],
+    [
+     "platform",
+     "",
+     "core"
+    ],
+    [
+     "puzzles-lib",
+     "",
+     "core"
+    ],
+    [
+     "aquarius-libs",
+     "",
+     "core"
+    ],
+    [
+     "atlas-lib",
+     "",
+     "core"
+    ],
+    [
+     "coroutil",
+     "",
+     "core"
+    ],
+    [
+     "insanelib",
+     "",
+     "core"
+    ],
+    [
+     "polytone",
+     "",
+     "core"
+    ],
+    [
+     "quantifiedapi",
+     "",
+     "core"
+    ],
+    [
+     "tacz-mesh-loader",
+     "",
+     "core"
+    ],
+    [
+     "ntgl",
+     "",
+     "core"
+    ],
+    [
+     "shoulder-surfing-reloaded",
+     "",
+     "core"
+    ],
+    [
+     "glitchcore",
+     "",
+     "core"
+    ],
+    [
+     "smartbrainlib",
+     "Required by tacz-turrets - found in the JAR, not declared on Modrinth",
+     "core"
+    ],
+    [
+     "voidless-framework",
+     "Required by rationcraft - found in the JAR, not declared on Modrinth",
+     "core"
+    ]
+   ]
+  }
+ },
+ "pins": {
+  "_comment": [
+   "Carried from Arkhdottir for every slug still present - these pairings were proven there (Iris needs the pinned Sodium).",
+   "2026-10-17: geckolib and tacz-1.21.1 UNPINNED - the jars of tacz-turrets (geckolib >=4.9.3) and tacza (tacz >=1.1.8-hotfix-r7) require newer than the Arkhdottir pins."
+  ],
+  "versions": {
+   "iris": "1.8.14-beta.1+1.21.1-neoforge",
+   "moreculling": "1.0.8",
+   "ferrite-core": "7.0.3-neoforge",
+   "entitytexturefeatures": "7.1-neoforge-1.21",
+   "entity-model-features": "3.2.4-neoforge-1.21",
+   "create": "6.0.10+mc1.21.1",
+   "createaddition": "neoforge-1.21.1-1.6.0",
+   "create-deco": "2.1.3",
+   "create-big-cannons": "5.11.7",
+   "create-steam-n-rails-1.21.1": "0.2.1+neoforge-mc1.21.1",
+   "create-enchantment-industry": "2.4.2",
+   "create-connected": "1.3.2-mc1.21.1",
+   "copycats": "3.0.4+mc.1.21.1-neoforge",
+   "create-sound-of-steam": "0.8.2-1.21.1",
+   "create-compatible-storage": "2.11.0-neoforge",
+   "create-design-n-decor": "2.2b",
+   "create_oxidized": "0.1.3",
+   "create-let-the-adventure-begin": "4.0.3",
+   "create-dreams-and-desires": "2.3a-BETA",
+   "create-misc-and-things": "4.1.1",
+   "create-bits-n-bobs": "0.0.44",
+   "bellsandwhistles": "v0.4.7-1.21.1",
+   "interiors": "0.6.1",
+   "create-framed": "1.8.2+1.21.1",
+   "create-railways-navigator": "1.21.1-beta-0.9.1-C6",
+   "numismatics": "1.0.20+neoforge-mc1.21.1",
+   "create-stuff-additions": "2.1.4.a",
+   "create-encased": "1.21.1-1.9.0-ht3",
+   "create-storage-neo-forge": "1.3.2",
+   "create-aeronautics": "1.3.0+mc1.21.1",
+   "ars-nouveau": "5.13.0",
+   "ars-creo": "5.4.0",
+   "create-ars-nouveau": "1.20.5",
+   "ars-lumos": "1.3.0",
+   "arsdelight": "2.2.2",
+   "enchantment-descriptions": "21.1.10",
+   "gunpowder-ore": "1.0.0",
+   "not-enough-animations": "1.12.4",
+   "first-person-model": "2.7.2",
+   "rottencreatures": "1.21.1-1.1.2",
+   "sound-physics-remastered": "neoforge-1.21.1-1.4.10",
+   "dynamic-lights": "1.9.3+mod",
+   "in-control": "1.21-10.2.6",
+   "corpse": "neoforge-1.21.1-1.1.13",
+   "yungs-better-dungeons": "1.21.1-NeoForge-5.1.4",
+   "yungs-better-mineshafts": "1.21.1-NeoForge-5.1.1",
+   "lootr": "1.21.1-1.11.37.122",
+   "emi": "1.1.24+1.21.1+neoforge",
+   "emi-loot": "0.7.9+1.21+neoforge",
+   "emiffect": "2.1.6+mc1.21.1",
+   "appleskin": "3.0.9+mc1.21",
+   "controlling": "19.0.5",
+   "mouse-tweaks": "1.21-2.26.1-neoforge",
+   "clumps": "19.0.0.1",
+   "carry-on": "2.2.6",
+   "storagedrawers": "1.21.1-13.11.4",
+   "comforts": "9.0.5+1.21.1",
+   "simple-voice-chat": "neoforge-1.21.1-2.6.21",
+   "item-highlighter": "1.1.11",
+   "item-borders": "1.2.5",
+   "3dskinlayers": "1.11.2",
+   "ambientsounds": "6.3.8",
+   "sound": "2.4.22+lts+1.21.1-neoforge",
+   "dripsounds": "0.5.2+1.21.8-neoforge",
+   "subtle-effects": "1.14.3",
+   "extreme_sound_muffler": "3.56-1.21.1",
+   "distanthorizons": "3.2.0-b-1.21.1",
+   "rrls": "5.0.11+mc1.21.1-forge",
+   "polymorph": "1.1.0+1.21.1",
+   "almostunified": "1.21.1-1.4.2+neoforge",
+   "chat-heads": "0.15.3",
+   "no-chat-reports": "NeoForge-1.21.1-v2.9.1",
+   "betterf3": "11.0.3",
+   "farmers-delight": "1.21.1-1.3.2",
+   "modernfix": "5.27.20+mc1.21.1",
+   "lithium": "mc1.21.1-0.15.4-neoforge",
+   "saturn": "mc1.21.1-0.1.5",
+   "alternate-current": "neoforge-mc1.21-1.9.0",
+   "lmft": "1.1.1+1.21.9",
+   "spark": "1.10.124-neoforge-1.21.1",
+   "chunky": "1.4.23",
+   "sodium": "mc1.21.1-0.8.12-neoforge",
+   "sodium-extra": "mc1.21.1-0.9.3+neoforge",
+   "reeses-sodium-options": "mc1.21.1-2.2.3+neoforge",
+   "euphoria-patches": "1.9.3-r5.8.1-neoforge",
+   "createbetterfps": "1.1.4",
+   "particle-core": "0.3.3+1.21+neoforge",
+   "flerovium": "1.1.2",
+   "entityculling": "1.10.5",
+   "immediatelyfast": "1.6.11+1.21.1-neoforge",
+   "dynamic-fps": "3.11.4",
+   "packet-fixer": "3.3.1",
+   "servercore": "1.5.19+1.21.1",
+   "crash-assistant": "1.11.11",
+   "cloth-config": "15.0.140+neoforge",
+   "fzzy-config": "0.7.6+1.21+neoforge",
+   "architectury-api": "13.0.11+neoforge",
+   "yacl": "3.8.2+1.21.1-neoforge",
+   "iceberg": "1.3.2",
+   "curios": "9.5.1+1.21.1",
+   "yungs-api": "1.21.1-NeoForge-5.1.6",
+   "kotlin-for-forge": "5.12.0",
+   "creativecore": "2.13.41",
+   "mru": "1.0.31+1.21.1-neoforge",
+   "resourceful-config": "3.0.11",
+   "searchables": "1.0.2",
+   "prism-lib": "1.0.11",
+   "rpl": "2.1.2",
+   "create-dragons-plus": "1.11.3",
+   "dragonlib": "1.21.1-beta-3.0.28",
+   "sable": "2.0.3+mc1.21.1",
+   "patchouli": "1.21.1-93-neoforge",
+   "dynamic_asset_generator": "6.1.2",
+   "bookshelf-lib": "21.1.81",
+   "prickle": "21.1.11",
+   "platform": "1.3.3",
+   "puzzles-lib": "v21.1.52-1.21.1-NeoForge",
+   "coroutil": "1.21.0-1.3.8",
+   "polytone": "1.21-3.11.0",
+   "glitchcore": "2.1.0.2"
+  }
+ },
+ "shaderpacks": {
+  "packs": [
+   [
+    "complementary-reimagined",
+    "Carried; DH support via Euphoria Patches."
+   ],
+   [
+    "bsl-shaders",
+    "Carried; Ethan's own pick."
+   ]
+  ]
+ },
+ "resourcepacks": {
+  "packs": [
+   [
+    "fresh-animations",
+    "Carried, ships off."
+   ],
+   [
+    "tras-fresh-player",
+    "Carried, ships off."
+   ],
+   [
+    "faithful-32x",
+    "Carried, the base texture pack."
+   ]
+  ]
+ }
+}

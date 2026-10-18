@@ -1,0 +1,13 @@
+name = "Third Person Shooting: Zero"
+filename = "tp_shooting-neoforge-1.21.1-tacz1.1.8-ssr5-6.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yl6ylodU/versions/WOcZWh5F/tp_shooting-neoforge-1.21.1-tacz1.1.8-ssr5-6.0.0.jar"
+hash-format = "sha512"
+hash = "e99d4e4d592457edcb926971278b80e0a5b982f2f25ca5592f8b2864afef94dadc9a4b56ada6a41c995532b3ada60376d8a5eb8e6891f03e2545969ba137a1ed"
+
+[update]
+[update.modrinth]
+mod-id = "yl6ylodU"
+version = "WOcZWh5F"

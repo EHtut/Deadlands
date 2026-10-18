@@ -1,0 +1,13 @@
+name = "Crimson Steve's Mutant Mobs"
+filename = "crimsonsteves_mutant_mobs-1.6.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gwvWgK9g/versions/uoyNXIyT/crimsonsteves_mutant_mobs-1.6.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "0e65794db30dd58b0a9d57d7d645299eeee858739e3a20e0775d918d7835b5500ce37c35260a1b316e4750919a799589ed4cc1196cca059c5554def8eaf62d1d"
+
+[update]
+[update.modrinth]
+mod-id = "gwvWgK9g"
+version = "uoyNXIyT"

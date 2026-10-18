@@ -1,0 +1,13 @@
+name = "Cyberpunk 2077 Guns for Vic's Point Blank"
+filename = "Cyberpunk_2077_Guns_Pack_1.20.2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nHm2V2Qm/versions/FWpKPor0/Cyberpunk_2077_Guns_Pack_1.20.2.zip"
+hash-format = "sha512"
+hash = "0cf377b96ebd45e76928d651845ace785466078c53fdcc9f72a62e001a06918457408c2e20df0e7167a401acbd17daca56b03cdc59dd1184ed031d18c21030c8"
+
+[update]
+[update.modrinth]
+mod-id = "nHm2V2Qm"
+version = "FWpKPor0"

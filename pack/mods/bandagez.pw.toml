@@ -1,0 +1,13 @@
+name = "Bandagez"
+filename = "bandagez-1.21.1-neoforge-0.2.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CkRqGcDz/versions/k8Rgw9hD/bandagez-1.21.1-neoforge-0.2.5.jar"
+hash-format = "sha512"
+hash = "1c0f4b95f3b4c68b2d35c4437778999668413e19c4f3609ff109efb432215e6aa3b47b203c4f0749e31e7fd5762abd4f631029d41848ef967a0fb5813750b2f2"
+
+[update]
+[update.modrinth]
+mod-id = "CkRqGcDz"
+version = "k8Rgw9hD"
