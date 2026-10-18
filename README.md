@@ -13,6 +13,18 @@ Minecraft **1.21.1**, NeoForge **21.1.262**, packwiz. Dedicated server + friends
 - **Guns are a big focus.** Create and Ars magic are the other two pillars.
 - Fantasy kept light: *"mostly the magic from ars but nothing overly fantastical."*
 
+## Joining
+
+**Import link:** `https://github.com/EHtut/Deadlands/releases/download/v0.1.0/Deadlands-PrismInstance.zip`
+— Prism → Add Instance → Import from zip. The instance runs packwiz on every Play against
+`main/pack/pack.toml`, so mod changes reach players by pushing to `main`; a new release is only
+needed when the **instance itself** changes (NeoForge version, memory, shipped configs, server address).
+Build it with `tools/make_prism_instance.py --game <host> --voice <host:port>`.
+
+The server address is the Arkhdottir playit tunnel, `stammer-audit.tun.ply.gg` (voice
+`stammer-guinea.tun.ply.gg:48619`, also set as `voice_host` on the server). ⚠️ That tunnel is
+assumed to still forward to `localhost:25565`; it was not verified from here.
+
 ## Where things are
 
 | | |
@@ -75,5 +87,4 @@ now checks Forge-only manifests and NeoForge's own range.
 
 ## Not done yet
 
-- **Publishing** — no GitHub remote yet, so no client import link.
 - **No mod has been seen in game.** Everything above is resolution and jar metadata.
